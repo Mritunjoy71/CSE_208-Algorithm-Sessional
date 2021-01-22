@@ -1,0 +1,7 @@
+Consider the problem of parenthesizing expressions again. This time there will be no fractional input, i.e., only integers both negative and positive. There will be atmost two operators: addition (+) and multiplication (*). Now given an expression E and another integer 'k' , you are required to find out whether it is possible to parenthesize E such that it evaluates to 'k'. If the answer is YES, print the corresponding parenthesized expression. Assume the max and min value of E will be within -N and +N where N <=10000 and the value of 'k' within -N and +N. 
+
+Sample Input and output: 
+
+Input: E= 2+3*(-1)+4+(-7),  k=8
+
+Output: Yes. E=(2+3)*((-1)+4)+(-7)=8

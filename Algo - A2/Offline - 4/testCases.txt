@@ -1,0 +1,63 @@
+input:
+    nProcessors nProcesses
+    costs of the processes
+
+input:
+    3 3
+    5 5 5
+output:
+    Min Time: 5
+    Solution:
+        0: 5,
+        1: 5,
+        2: 5,
+
+input:
+    2 3
+    5 5 5
+output:
+    Min Time: 10
+    Solution:
+        0: 5, 5,
+        1: 5,
+
+input:
+    3 5
+    1 2 3 4 5
+output:
+    Min Time: 5
+    Solution:
+        0: 1, 4,
+        1: 2, 3,
+        2: 5,
+
+input:
+    3 5
+    10 9 8 11 15
+output:
+    Min Time: 19
+    Solution:
+        0: 10, 9
+        1: 8, 11
+        2: 15
+
+input:
+
+output:
+
+
+input:
+
+output:
+
+
+input:
+
+output:
+
+
+input:
+
+output:
+
+

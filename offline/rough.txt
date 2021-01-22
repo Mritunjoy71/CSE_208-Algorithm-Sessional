@@ -1,0 +1,109 @@
+ seed=arr[0];
+    counts[0]=0;
+    HashMap hash;
+    for(i=1; i<=TABLE_SIZE; i++)
+    {
+        string rs(5,'A');
+
+        for (  j = 0; j <5; j++)
+        {
+            rs[j]='A'+(rand())%26;
+
+        }
+        hash.probinsert(rs,i,0);
+    }
+
+    // hash.printhash();
+    //printf("For hash function %d :\n",k+1);
+    cout<<"collision is "<<counts[0]<<endl;
+    hash.probprint();
+
+    //hash.insert("deba",1);
+    //hash.insert("deba",2) ;
+    //hash.insert("bddba",3) ;
+    //hash.insert("asif",5);
+    //hash.insert("cfba",6);
+    //hash.insert("bgba",8);
+    //hash.insert("brif",8);
+
+    //hash.removekey("brif") ;
+    //hash.getkey("bddba");
+    //hash.printhash();
+
+    /*  for(i=1; i<=TABLE_SIZE; i++)
+      {
+          string rs(5,'A');
+
+          for (  j = 0; j <5; j++)
+          {
+              rs[j]='A'+(rand())%26;
+
+          }
+          hash.insert(rs,i);
+      }
+
+     // hash.printhash();
+      cout<<"collision is "<<counts<<endl;
+
+      clock_t tStart = clock() ;
+      for(i=1; i<=TABLE_SIZE; i++)
+      {
+          string rs(5,'A');
+
+          for ( j = 0; j <5; j++)
+          {
+              rs[j]='A'+(rand())%26;
+          }
+          hash.getkey(rs);
+      }
+
+      printf("Time taken: %.2f s\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+
+      */
+
+    // hash.probinsert("debam",1) ;
+    //hash.probinsert("mritun",10);
+
+    //hash.probsearch("debam");
+    //hash.probprint();
+    /*
+      for(i=1; i<=TABLE_SIZE; i++)
+     {
+         string rs(5,'A');
+
+         for (  j = 0; j <5; j++)
+         {
+             rs[j]='A'+(rand())%26;
+
+         }
+         hash.probinsert(rs,i);
+     }
+     //hash.probprint();
+     cout<<"collission is "<<counts2<<endl;
+     /*
+     //clock_t tStart = clock() ;
+     for(i=1; i<100; i++)
+     {
+         string rs(5,'A');
+
+         for ( j = 0; j <5; j++)
+         {
+             rs[j]='A'+(rand())%26;
+         }
+         hash.probdelete(rs);
+     }
+     for(i=1; i<200; i++)
+     {
+         string rs(5,'A');
+
+         for ( j = 0; j <5; j++)
+         {
+             rs[j]='A'+(rand())%26;
+         }
+         hash.probsearch(rs);
+     }
+     // printf("Time taken: %d ms\n", (clock() - tStart));
+     // */
+
+    //hash.probsearch("AKHD") ;
+    // cout<<"collission is "<<counts2<<endl;
